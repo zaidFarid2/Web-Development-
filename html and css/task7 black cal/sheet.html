@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sheet.css" class="css">
+</head>
+
+<body>
+  <div class="calculator">
+    <input type=" text" placeholder="" id="input" readonly>
+ 
+  <div >
+    <button class="operator" onclick="clearAll()">AC</button>
+    <button class="operator"  >DEl</button>
+    <button class="operator">%</button>
+    <button class="operator"   onclick="dabaya('/')">/</button>
+  </div>
+  
+  <div >
+    <button onclick="dabaya(7)">7</button>
+    <button onclick="dabaya(8)">8 </button>
+    <button onclick="dabaya(9)"> 9</button>
+    <button class="operator"  onclick="dabaya('*')"  >*</button>
+  </div>
+  
+  <div >
+    <button onclick="dabaya(4)">4</button>
+    <button onclick="dabaya(5)">5</button>
+    <button onclick="dabaya(6)">6</button>
+    <button class="operator"  onclick="dabaya('-')" >-</button>
+  </div>
+  
+  <div >
+    <button onclick="dabaya(1)">1</button>
+    <button onclick="dabaya(2)">2</button>
+    <button onclick="dabaya(3)">3</button>
+    <button class="operator" onclick="dabaya('+')" >+</button>
+  </div>
+  <div >
+    <button onclick="doBarDabaya()">00</button>
+    <button onclick="dabaya(0)">0</button>
+    <button   onclick="dabaya('.')">.</button>
+    <button class="equalopr" onclick="equal()">=</button>
+  </div>
+</div>
+
+
+<script src="sheet.js"></script>
+</body>
+</html>

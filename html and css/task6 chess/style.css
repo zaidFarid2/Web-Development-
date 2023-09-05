@@ -1,0 +1,84 @@
+body{
+    background-color: grey;
+}
+.white{
+    width: 100px;
+   height:100px ;
+   background-color: white;
+   display: inline-block;
+ 
+}
+.black{
+    width: 100px;
+   height:100px ;
+   background-color:rgb(76, 71, 71);
+   display: inline-block;
+   
+}
+.main{
+    text-align: center;
+    margin: 30px;
+    border: 20px solid rgb(19, 15, 3);
+}
+img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 60px;
+    top: 9px;
+}
+table{
+    border: 20px solid bla;
+}
+.horse{
+    position: absolute;
+    top: 50px;
+    left: 200px;
+   
+}
+.plus{
+    position: absolute;
+    top: 50px;
+    left: 410px;
+}
+.smile{
+    position: absolute;
+    top: 50px;
+    left: 620px;
+}
+.toppi{
+    position: absolute;
+    top: 50px;
+    right: 200px;
+}
+.lamba{
+    position: absolute;
+    top: 50px;
+    right: 420px;
+
+}
+#horse{
+    position: absolute;
+   top : 570px;
+    left: 210px;
+}
+#plus{
+    position: absolute;
+   top : 570px;
+    left: 417px;
+}
+#smile{
+    position: absolute;
+   top : 570px;
+    left: 625px;
+}
+#toppi{
+    position: absolute;
+   top : 570px;
+    left: 832px;
+}
+#lamba{
+    position: absolute;
+   top : 570px;
+    left: 1040px;
+}

@@ -1,0 +1,28 @@
+
+
+table{
+    margin: auto;
+    
+}
+
+
+table,td,tr{
+  border: 1px solid black;
+    width:15%;
+    border-collapse: collapse;
+}
+.abc{
+    background-color: #312E2F;
+    text-align: right;
+    color: aliceblue;
+}
+tr{
+    text-align: center;
+}
+#diff{
+    background-color: #F28451;
+}
+.tr{
+    background-color: #D2D0C4;
+
+}

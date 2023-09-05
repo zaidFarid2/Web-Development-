@@ -1,0 +1,17 @@
+input{
+    border-radius: 10px;
+    width: 500px;
+    height: 20px;
+}
+.abc{
+    text-align: center;
+}
+.video{
+   
+    text-align:center;
+    
+}
+.video,iframe{
+    padding: 10px;
+
+}

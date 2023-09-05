@@ -1,0 +1,43 @@
+  @font-face {
+    font-family: 'zaid';
+    src: url('/wma/task3/PlayfairDisplay-VariableFont_wght.ttf');
+  }
+  .word{
+    text-align: center;
+   font-family: 'zaid';
+}
+.mnb{
+    text-align: center;
+}
+.navbar {
+    border: 1px solid #000;
+    border-left-width: none;
+    border-right-width: none;
+    border-width: 10px 0; /* 0 for top and bottom, 1px for left and right */
+    
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .navbar li {
+    display: inline-block;
+  }
+  
+  .navbar li a {
+    color: black;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  .image{
+    text-align: center;
+    margin: 20px;
+  }
+  .para{
+    text-align: center;
+  }
